@@ -30,6 +30,6 @@ alias l='ls -CF'
 alias dir='ls -l'
 alias cls='clear'
 
-if command -v screenfetch; then
+if command -v screenfetch >/dev/null 2>&1; then
   screenfetch
 fi
